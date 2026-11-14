@@ -65,9 +65,11 @@ h2 {
 
 .book-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 20px;
-    margin-bottom: 3rem;
+    /* Membuat kolom otomatis menyesuaikan ukuran layar */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 20px; /* Jarak antar kartu buku */
+    width: 100%;
+    /* JANGAN berikan height atau max-height di sini agar bisa memanjang ke bawah! */
 }
 
 .book-card {
