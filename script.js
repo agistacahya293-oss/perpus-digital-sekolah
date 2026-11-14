@@ -81,7 +81,7 @@ function renderBorrowed() {
     borrowedListEl.innerHTML = '';
 
     if (borrowedRecords.length === 0) {
-        borrowedListEl.innerHTML = '<tr><td colspan="6" style="text-align:center;">Belum ada buku yang dipinjam.</td></tr>';
+        borrowedListEl.innerHTML = '<tr><td colspan="11" style="text-align:center;">Belum ada buku yang dipinjam.</td></tr>';
         return;
     }
 
