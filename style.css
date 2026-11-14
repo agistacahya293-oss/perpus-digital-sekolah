@@ -24,6 +24,12 @@ header {
     text-align: center;
     margin-bottom: 2rem;
     box-shadow: 0 4px 6px rgba(127, 177, 237);
+    background: linear-gradient(135deg, #4f46e5, #9333ea); /* Gradasi Ungu-Biru yang elegan */
+    color: white;
+    padding: 2.5rem 0;
+    text-align: center;
+    border-radius: 0 0 24px 24px; /* Membuat sudut bawah header melengkung modern */
+    box-shadow: 0 10px 25px rgba(79, 70, 229, 0.2);
 }
 
 header h1 {
