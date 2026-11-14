@@ -6,6 +6,33 @@ const initialBooks = [
     { id: 4, title: "Bumi Manusia", author: "Pramoedya Ananta Toer", category: "Novel", available: true },
     { id: 5, title: "Logika Algoritma Pemrograman", author: "Rinaldi Munir", category: "Teknologi", available: true },
     { id: 6, title: "Fisika Dasar SMA", author: "Marthen Kanginan", category: "Pelajaran", available: true }
+    const initialBooks = [
+    { 
+        id: 1, 
+        title: "Laskar Pelangi", 
+        author: "Andrea Hirata", 
+        category: "Novel", 
+        cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=400&q=80", // Ganti dengan link gambar atau "images/nama-file.jpg"
+        available: true 
+    },
+    { 
+        id: 2, 
+        title: "Belajar Dasar HTML & CSS", 
+        author: "Budi Raharjo", 
+        category: "Teknologi", 
+        cover: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=400&q=80",
+        available: true 
+    },
+    { 
+        id: 3, 
+        title: "Matematika Kelas XI", 
+        author: "Kemendikbud", 
+        category: "Pelajaran", 
+        cover: "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=400&q=80",
+        available: true 
+    }
+    // Lakukan hal yang sama untuk buku lainnya...
+];
 ];
 
 // Ambil data dari localStorage atau gunakan data awal jika belum ada
@@ -49,6 +76,23 @@ function renderBooks() {
         card.className = 'book-card';
 
         card.innerHTML = `
+       <div>
+                <img src="${book.cover}" alt="${book.title}" class="book-cover">
+                <span class="badge badge-category">${book.category}</span>
+                <div class="book-title">${book.title}</div>
+                <div class="book-author">Penulis: ${book.author}</div>
+            </div>
+            <div>
+                <div class="${book.available ? 'status-available' : 'status-borrowed'}">
+                    ${book.available ? '● Tersedia' : '● Sedang Dipinjam'}
+                </div>
+                <button 
+                    class="${book.available ? 'btn-primary' : 'btn-disabled'}" 
+                    ${book.available ? `onclick="openModal(${book.id})"` : 'disabled'}>
+                    ${book.available ? 'Pinjam Buku' : 'Tidak Tersedia'}
+                </button>
+            </div>
+        `; 
             <div>
                 <span class="badge badge-category">${book.category}</span>
                 <div class="book-title">${book.title}</div>
