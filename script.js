@@ -5,7 +5,11 @@ const initialBooks = [
     { id: 3, title: "Matematika Kelas XI", author: "Kemendikbud", category: "Pelajaran", available: true },
     { id: 4, title: "Bumi Manusia", author: "Pramoedya Ananta Toer", category: "Novel", available: true },
     { id: 5, title: "Logika Algoritma Pemrograman", author: "Rinaldi Munir", category: "Teknologi", available: true },
-    { id: 6, title: "Fisika Dasar SMA", author: "Marthen Kanginan", category: "Pelajaran", available: true }
+    { id: 6, title: "Fisika Dasar SMA", author: "Marthen Kanginan", category: "Pelajaran", available: true },
+    { id: 7, title: "Filosofi Teras", author: "Henry Manampiring", category: "Pengembangan Diri", available: true },
+    { id: 8, title: "Atomic Habits", author: "James Clear", category: "Pengembangan Diri", available: true },
+    { id: 9, title: "Perahu Kertas", author: "Dee Lestari", category: "Novel", available: true },
+    { id: 10, title: "Sejarah Indonesia Modern", author: "M.C. Ricklefs", category: "Sejarah", available: true },
   
 ];
 
