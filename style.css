@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f4f7f6;
+    background-color: #b0b873;
     color: #333;
     line-height: 1.6;
 }
@@ -23,7 +23,7 @@ header {
     padding: 2rem 0;
     text-align: center;
     margin-bottom: 2rem;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(127, 177, 237);
 }
 
 header h1 {
@@ -68,7 +68,7 @@ h2 {
     background: white;
     border-radius: 12px;
     padding: 20px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    box-shadow: 0 2px 8px rgba(86, 119, 178);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -90,7 +90,7 @@ h2 {
 }
 
 .badge-category {
-    background-color: #e0e7ff;
+    background-color: #7f9d58;
     color: #3730a3;
 }
 
@@ -131,7 +131,7 @@ button {
 }
 
 .btn-primary {
-    background-color: #2563eb;
+    background-color: #569d63;
     color: white;
     width: 100%;
 }
