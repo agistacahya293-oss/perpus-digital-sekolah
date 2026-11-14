@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Library - Perpustakaan Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>📚 SmartLib Sekolah</h1>
+            <p>Pinjam buku cepat tanpa antre, langsung dari HP-mu.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Bagian Pencarian & Filter -->
+        <section class="search-section">
+            <input type="text" id="searchInput" placeholder="Cari judul buku atau penulis...">
+            <select id="categoryFilter">
+                <option value="Semua">Semua Kategori</option>
+                <option value="Novel">Novel & Fiksi</option>
+                <option value="Pelajaran">Buku Pelajaran</option>
+                <option value="Teknologi">Teknologi & Coding</option>
+            </select>
+        </section>
+
+        <!-- Katalog Buku -->
+        <section>
+            <h2>Katalog Buku Tersedia</h2>
+            <div id="bookList" class="book-grid">
+                <!-- Kartu buku akan muncul otomatis lewat JavaScript -->
+            </div>
+        </section>
+
+        <!-- Daftar Buku yang Sedang Dipinjam -->
+        <section class="borrowed-section">
+            <h2>Daftar Peminjaman Aktif</h2>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nama Peminjam</th>
+                            <th>Kelas</th>
+                            <th>Judul Buku</th>
+                            <th>Tgl Pinjam</th>
+                            <th>Batas Kembali</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="borrowedList">
+                        <!-- Data peminjaman muncul otomatis di sini -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pop-up Formulir Peminjaman -->
+    <div id="borrowModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h3>Form Peminjaman Buku</h3>
+            <p id="selectedBookTitle" class="highlight-book"></p>
+            <form id="borrowForm">
+                <input type="hidden" id="selectedBookId">
+                <div class="form-group">
+                    <label for="studentName">Nama Lengkap</label>
+                    <input type="text" id="studentName" required placeholder="Contoh: Budi Santoso">
+                </div>
+                <div class="form-group">
+                    <label for="studentClass">Kelas</label>
+                    <input type="text" id="studentClass" required placeholder="Contoh: XI RPL 2">
+                </div>
+                <button type="submit" class="btn-primary">Konfirmasi Pinjam (7 Hari)</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
