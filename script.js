@@ -10,7 +10,7 @@ const initialBooks = [
     { id: 8, title: "Atomic Habits", author: "James Clear", category: "Pengembangan Diri", available: true, image: "atomichabits.jpg" },
     { id: 9, title: "Perahu Kertas", author: "Dee Lestari", category: "Novel", available: true, image: "perahukertas.jpg" },
     { id: 10, title: "Sejarah Indonesia Modern", author: "M.C. Ricklefs", category: "Sejarah", available: true, image: "sejarahindonesiamodern.jpg" },
-    { id: 11, title: "Bahasa Indonesia XI", author: "Suherli, dkk", category: "Pelajaran", available: true, image: "bahasa.indonesia.XIjpg" },
+    { id: 11, title: "Bahasa Indonesia XI", author: "Suherli, dkk", category: "Pelajaran", available: true, image: "bahasa.indonesia.XI.jpg" },
   
 ];
 
