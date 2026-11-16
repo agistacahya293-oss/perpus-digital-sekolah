@@ -168,26 +168,6 @@ function returnBook(recordIndex, bookId) {
         renderBorrowed();
     }
 }
-const initialBooks = [
-    { 
-        id: 1, 
-        title: "Laskar Pelangi", 
-        author: "Andrea Hirata", 
-        category: "Novel", 
-        available: true, 
-        image: "laskarpelangi.jpg" 
-    },
-    { 
-        id: 2, 
-        title: "Belajar Dasar HTML & CSS", 
-        author: "Budi Raharjo", 
-        category: "Teknologi", 
-        available: true, 
-        image: "belajar.dasarhtml&css.jpg" 
-    },
-    // ... (tambahkan property image: "URL_GAMBAR" untuk buku-buku lainnya)
-];
-
 // Event Listener untuk pencarian & filter
 searchInput.addEventListener('input', renderBooks);
 categoryFilter.addEventListener('change', renderBooks);
