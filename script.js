@@ -195,3 +195,4 @@ categoryFilter.addEventListener('change', renderBooks);
 // Jalankan pertama kali saat halaman dibuka
 renderBooks();
 renderBorrowed();
+
