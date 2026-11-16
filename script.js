@@ -175,7 +175,7 @@ const initialBooks = [
         author: "Andrea Hirata", 
         category: "Novel", 
         available: true, 
-        image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400" 
+        image: "laskarpelangi.jpg" 
     },
     { 
         id: 2, 
@@ -183,7 +183,7 @@ const initialBooks = [
         author: "Budi Raharjo", 
         category: "Teknologi", 
         available: true, 
-        image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400" 
+        image: "belajar.dasarhtml&css.jpg" 
     },
     // ... (tambahkan property image: "URL_GAMBAR" untuk buku-buku lainnya)
 ];
