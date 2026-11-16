@@ -55,7 +55,10 @@ function renderBooks() {
         card.className = 'book-card';
 
         card.innerHTML = `
-       
+       <!-- Tambahan Elemen Gambar Cover -->
+        <div class="book-cover-container">
+            <img src="${book.image || 'https://via.placeholder.com/150'}" alt="${book.title}" class="book-cover">
+        </div>
             <div>
                 <span class="badge badge-category">${book.category}</span>
                 <div class="book-title">${book.title}</div>
