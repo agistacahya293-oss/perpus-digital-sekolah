@@ -1,10 +1,10 @@
 // Data awal buku (bisa kamu tambah atau ubah sesuka hati)
 const initialBooks = [
-    { id: 1, title: "Laskar Pelangi", author: "Andrea Hirata", category: "Novel", available: true },
-    { id: 2, title: "Belajar Dasar HTML & CSS", author: "Budi Raharjo", category: "Teknologi", available: true },
-    { id: 3, title: "Matematika Kelas XI", author: "Kemendikbud", category: "Pelajaran", available: true },
-    { id: 4, title: "Bumi Manusia", author: "Pramoedya Ananta Toer", category: "Novel", available: true },
-    { id: 5, title: "Logika Algoritma Pemrograman", author: "Rinaldi Munir", category: "Teknologi", available: true },
+    { id: 1, title: "Laskar Pelangi", author: "Andrea Hirata", category: "Novel", available: true, image: "laskarpelangi.jpg" },
+    { id: 2, title: "Belajar Dasar HTML & CSS", author: "Budi Raharjo", category: "Teknologi", available: true, image: "belajar.dasarhtml&css.jpg" },
+    { id: 3, title: "Matematika Kelas XI", author: "Kemendikbud", category: "Pelajaran", available: true, image: "matematikakelasXI.jpg" },
+    { id: 4, title: "Bumi Manusia", author: "Pramoedya Ananta Toer", category: "Novel", available: true, image: "bumimanusia.jpg" },
+    { id: 5, title: "Logika Algoritma Pemrograman", author: "Rinaldi Munir", category: "Teknologi", available: true, image: "logikaalgoritmapemrograman.jpg" },
     { id: 6, title: "Fisika Dasar SMA", author: "Marthen Kanginan", category: "Pelajaran", available: true },
     { id: 7, title: "Filosofi Teras", author: "Henry Manampiring", category: "Pengembangan Diri", available: true },
     { id: 8, title: "Atomic Habits", author: "James Clear", category: "Pengembangan Diri", available: true },
