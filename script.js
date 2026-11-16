@@ -168,6 +168,25 @@ function returnBook(recordIndex, bookId) {
         renderBorrowed();
     }
 }
+const initialBooks = [
+    { 
+        id: 1, 
+        title: "Laskar Pelangi", 
+        author: "Andrea Hirata", 
+        category: "Novel", 
+        available: true, 
+        image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400" 
+    },
+    { 
+        id: 2, 
+        title: "Belajar Dasar HTML & CSS", 
+        author: "Budi Raharjo", 
+        category: "Teknologi", 
+        available: true, 
+        image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400" 
+    },
+    // ... (tambahkan property image: "URL_GAMBAR" untuk buku-buku lainnya)
+];
 
 // Event Listener untuk pencarian & filter
 searchInput.addEventListener('input', renderBooks);
