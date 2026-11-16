@@ -81,7 +81,7 @@ h2 {
     flex-direction: column;
     justify-content: space-between;
     transition: transform 0.2s;
-    min-height: 380px;
+    min-height: 540px;
 }
 
 .book-card:hover {
