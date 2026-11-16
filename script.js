@@ -5,12 +5,12 @@ const initialBooks = [
     { id: 3, title: "Matematika Kelas XI", author: "Kemendikbud", category: "Pelajaran", available: true, image: "matematikakelasXI.jpg" },
     { id: 4, title: "Bumi Manusia", author: "Pramoedya Ananta Toer", category: "Novel", available: true, image: "bumimanusia.jpg" },
     { id: 5, title: "Logika Algoritma Pemrograman", author: "Rinaldi Munir", category: "Teknologi", available: true, image: "logikaalgoritmapemrograman.jpg" },
-    { id: 6, title: "Fisika Dasar SMA", author: "Marthen Kanginan", category: "Pelajaran", available: true },
-    { id: 7, title: "Filosofi Teras", author: "Henry Manampiring", category: "Pengembangan Diri", available: true },
-    { id: 8, title: "Atomic Habits", author: "James Clear", category: "Pengembangan Diri", available: true },
-    { id: 9, title: "Perahu Kertas", author: "Dee Lestari", category: "Novel", available: true },
-    { id: 10, title: "Sejarah Indonesia Modern", author: "M.C. Ricklefs", category: "Sejarah", available: true },
-    { id: 11, title: "Bahasa Indonesia XI", author: "Suherli, dkk", category: "Pelajaran", available: true },
+    { id: 6, title: "Fisika Dasar SMA", author: "Marthen Kanginan", category: "Pelajaran", available: true, image: "fisikadasarSMA.jpg" },
+    { id: 7, title: "Filosofi Teras", author: "Henry Manampiring", category: "Pengembangan Diri", available: true, image: "filosofiteras.jpg" },
+    { id: 8, title: "Atomic Habits", author: "James Clear", category: "Pengembangan Diri", available: true, image: "atomichabits.jpg" },
+    { id: 9, title: "Perahu Kertas", author: "Dee Lestari", category: "Novel", available: true, image: "perahukertas.jpg" },
+    { id: 10, title: "Sejarah Indonesia Modern", author: "M.C. Ricklefs", category: "Sejarah", available: true, image: "sejarahindonesiamodern.jpg" },
+    { id: 11, title: "Bahasa Indonesia XI", author: "Suherli, dkk", category: "Pelajaran", available: true, image: "bahasa.indonesia.jpg" },
   
 ];
 
